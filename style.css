@@ -1,0 +1,40 @@
+header {
+    background-color: pink;
+    height: 70px;
+}
+
+#Lside {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(252, 161, 252);
+    word-wrap: break-word;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#Rside {
+    width: 300px;
+    background-color: lightblue;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#content {
+    display: inline;
+    text-align: left;
+    background-color: rgb(249, 249, 142);
+    float: left;
+    padding-left: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+#footer {
+    display: flex;
+    align-self: flex-end;
+    background-color: rgb(176, 180, 253);
+}
