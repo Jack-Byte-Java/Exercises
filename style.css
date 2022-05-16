@@ -19,46 +19,25 @@ header {
     background-color: lightblue;
     padding-left: 10px;
     padding-top: 10px;
-    display: flex;
-    flex-shrink: 0;
 }
 
 #content {
-    display: flex;
+    display: inline;
     text-align: left;
     background-color: rgb(249, 249, 142);
+    float: left;
     padding-left: 10px;
-    flex: 50%;
-    position: relative;
+    overflow: auto;
 }
 
 .box {
     display: flex;
     justify-content: space-between;
     height: 600px;
-    flex-wrap: wrap;
-    flex: auto;
 }
 
-body {
+#footer {
     display: flex;
-    flex-direction: column;
-}
-
-#outer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-#bottom {
+    align-self: flex-end;
     background-color: rgb(176, 180, 253);
-}
-footer {
-    width: 100%;
-    text-align: left;
-    margin-top: auto;
-    position: relative;
-    flex-wrap: wrap;
-    line-height: 1.5;
 }
