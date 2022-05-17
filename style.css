@@ -29,14 +29,15 @@ header {
     background-color: rgb(249, 249, 142);
     padding-left: 10px;
     flex: 50%;
-    position: relative;
+    /* position: relative; */
 }
 
 .box {
     display: flex;
     justify-content: space-between;
-    height: 600px;
-    flex-wrap: wrap;
+    /* height: 600px; */
+    min-height: 80vh;
+    /* flex-wrap: wrap; */
     flex: auto;
 }
 
@@ -48,7 +49,7 @@ body {
 #outer {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #bottom {
@@ -58,7 +59,11 @@ footer {
     width: 100%;
     text-align: left;
     margin-top: auto;
-    position: relative;
+    /* position: relative; */
     flex-wrap: wrap;
     line-height: 1.5;
+}
+
+#container {
+    min-width: 550px;
 }
