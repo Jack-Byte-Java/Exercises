@@ -27,17 +27,46 @@ header {
     background-color: rgb(249, 249, 142);
     float: left;
     padding-left: 10px;
-    overflow: auto;
+    flex: 50%;
+    /* position: relative; */
+
 }
 
 .box {
     display: flex;
     justify-content: space-between;
-    height: 600px;
+
+    /* height: 600px; */
+    min-height: 80vh;
+    /* flex-wrap: wrap; */
+    flex: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 #footer {
     display: flex;
-    align-self: flex-end;
+
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+#bottom {
     background-color: rgb(176, 180, 253);
 }
+footer {
+    width: 100%;
+    text-align: left;
+    margin-top: auto;
+    /* position: relative; */
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+
+#container {
+    min-width: 550px;
+}
+
