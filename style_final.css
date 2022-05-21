@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar-nav > li {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+nav {
+    background-color: #2f2e2e;
+    height: 4em;
+}
+
+.nav-link {
+    color: #e8e5e5;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: linear-gradient(rgba(183, 183, 183, 0.7),rgba(183, 183, 183, 0.7)), 
+    url("https://static.wixstatic.com/media/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg/v1/fill/w_1899,h_1130,al_b,q_90,usm_0.66_1.00_0.01,enc_auto/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    /* The image used */
+    background-image: url("http://luxdezine.com/wp-content/uploads/2019/10/luxdezine-must-have-curtains-sheer-curtain.gif");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 5em;
+}
+
+#titleBack {
+    min-height: 50em;
+}
+
+body {
+    background-image: linear-gradient(rgba(183, 183, 183, 0.7),rgba(183, 183, 183, 0.7)), 
+    url("https://static.wixstatic.com/media/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg/v1/fill/w_1899,h_1130,al_b,q_90,usm_0.66_1.00_0.01,enc_auto/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg");
+    background-attachment: fixed;
+}
+
+.symbol {
+    margin: 1em;
+    width: 2em;
+    position: relative;
+}
+
+#shop {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+#jumbo {
+    background-color: #d1cac9;
+}
+
+#about {
+    background-color: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    max-width: 60%;
+    min-height: 60%;
+    text-align: center;
+}
+
+#line {
+    size: 3em;
+    width: 8%;
+    height: 2em;
+    border-width: 3px;
+    border-color: black;
+}
+
+.card-body {
+    background-color: #d1cac9;
+}
+
+.card {
+    border: none;
+    margin-top: 3em;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+#hoverCard {
+    background-color: #282c34;
+    color: white;
+    height: 2em;
+    opacity: 0;
+}
+
+.btn {
+    border: 1px solid black;
+    
+}
+
+.btn:hover {
+    border: 3px solid black;
+}
+
+#products {
+    background-color: white;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    min-width: 100vh;
+}
+
+#prodCards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 3em;
+    text-align: center;
+    margin: 1em;
+    max-width: 30%;
+}
+
+.prodItems{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.prodItems:hover {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#formContainer {
+    background-color: #b0aaa9;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: white;
+    min-height: 60vh;
+    max-width: 90vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3em;
+}
+
+input {
+    border: none;
+}
+
+table, tr, td {
+    border: thick 
+}
+
+#submit {
+    background-color: #282c34;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#email {
+    color: black;
+}
+
+#email:hover {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2f2e2e;
+    padding-bottom: 3em;
+}
+
+#author {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#bottom {
+    position: relative;
+    top: 2em;
+}
