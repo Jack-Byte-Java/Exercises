@@ -53,11 +53,3 @@ button {
     font-weight: bold;
 }
 
-button:hover {
-    background-color: rgb(101, 154, 22);
-}
-
-button:active{
-    background-color: rgb(229, 255, 0);
-}
-

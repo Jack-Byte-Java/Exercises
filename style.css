@@ -19,22 +19,23 @@ header {
     background-color: lightblue;
     padding-left: 10px;
     padding-top: 10px;
-    display: flex;
-    flex-shrink: 0;
 }
 
 #content {
-    display: flex;
+    display: inline;
     text-align: left;
     background-color: rgb(249, 249, 142);
+    float: left;
     padding-left: 10px;
     flex: 50%;
     /* position: relative; */
+
 }
 
 .box {
     display: flex;
     justify-content: space-between;
+
     /* height: 600px; */
     min-height: 80vh;
     /* flex-wrap: wrap; */
@@ -46,8 +47,9 @@ body {
     flex-direction: column;
 }
 
-#outer {
+#footer {
     display: flex;
+
     flex-direction: column;
     /* text-align: center; */
 }
@@ -67,3 +69,4 @@ footer {
 #container {
     min-width: 550px;
 }
+
